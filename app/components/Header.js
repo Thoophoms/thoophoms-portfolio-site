@@ -7,9 +7,11 @@ const Header = () => {
 
 
             <div>
+
                 <Link href="/">
                     <p className="text-xl font-bold hover:text-gray-600">Thoop-hom (Trisha) Supannopaj</p>
                 </Link>
+
             </div>
 
             <div className='flex items-center gap-4'>

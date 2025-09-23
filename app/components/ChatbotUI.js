@@ -69,14 +69,7 @@ export default function ChatbotUI() {
             className="text-xl text-gray-500 mt-2 mb-5"
           />
         </div>
-        {/* <div className="text-center mb-4">
-          <h1 className="text-6xl font-bold">Hi, I'm Trisha 👋</h1>
-          <p className="text-xl text-gray-500 mt-2 mb-9">
-            A Software Engineer - Specializing in AI & Machine Learning
-          </p>
-        </div> */}
 
-        {/* <div className="mt-8 flex items-center justify-center mb-8">🤖</div> */}
 
         <form onSubmit={onSubmit} className="w-full">
           {/* Message area */}
