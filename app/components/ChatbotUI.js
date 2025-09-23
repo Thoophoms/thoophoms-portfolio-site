@@ -51,7 +51,7 @@ export default function ChatbotUI() {
           <TypeAnimation
             sequence={[
               // Start with your name
-              "Hi, I'm Trisha 👋",
+              "Hi, I’m Trisha 👋",
               1500, // Wait 1.5 seconds
             ]}
             wrapper="h1"
@@ -86,8 +86,8 @@ export default function ChatbotUI() {
                 <div
                   key={m.id}
                   className={`whitespace-pre-wrap py-2 px-4 rounded-lg text-6xl] ${m.role === "user"
-                      ? "bg-blue-600 text-white self-end"
-                      : "bg-gray-200 text-gray-800 self-start"
+                    ? "bg-blue-600 text-white self-end"
+                    : "bg-gray-200 text-gray-800 self-start"
                     }`}
                 >
                   <strong>{m.role === "user" ? "You: " : "AI: "}</strong>
@@ -96,7 +96,7 @@ export default function ChatbotUI() {
               ))
             ) : (
               <div className="text-center text-gray-400 p-8">
-                Want to say "Hello!" 😋?
+                Want to say &quot;Hello!&quot; 😋?
               </div>
             )}
             {!!error && (
