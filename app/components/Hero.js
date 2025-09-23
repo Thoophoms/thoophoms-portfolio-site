@@ -15,9 +15,9 @@ const Hero = () => {
             </h2>
             <p className="text-lg mb-5 text-gray-400">
                 Demonstrated expertise in building and implementing complex models with Python, PyTorch, and TensorFlow. <br/>
-                Successfully reproduced Meta AI's Toolformer, showcasing advanced capabilities in Large Language Models (LLMs) 
+                Successfully reproduced Meta AI&apos;s Toolformer, showcasing advanced capabilities in Large Language Models (LLMs) 
                 <br/>and AI agent frameworks. Combines a deep understanding of AI with a strong background in full-stack development 
-                <br/> to build and deploy end-to-end intelligent applications.
+                <br/>to build and deploy end-to-end intelligent applications.
             </p>
 
             {/* Nav */}
