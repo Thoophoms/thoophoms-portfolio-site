@@ -51,7 +51,7 @@ export default function ChatbotUI() {
           <TypeAnimation
             sequence={[
               // Start with your name
-              "Hi, I’m Trisha 👋",
+              "Hi, I'm Trisha 👋",
               1500, // Wait 1.5 seconds
             ]}
             wrapper="h1"
