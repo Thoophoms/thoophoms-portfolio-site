@@ -126,7 +126,7 @@ export default function ChatbotUI() {
           <Link href="/skills" className="inline-flex items-center gap-2 bg-gray-100 rounded-3xl border border-neutral-200 px-5 py-4 text-sm font-medium hover:bg-gray-200" target="_blank" rel="noopener noreferrer">
             <Sparkles className="h-5 w-5" /> Skills
           </Link>
-          <Link href="https://thoophoms.com/wp-content/uploads/2025/09/Resume-Thoop-hom-Supannopaj-Software-Developer.pdf" className="inline-flex items-center gap-2 bg-gray-100 rounded-3xl border border-neutral-200 px-5 py-4 text-sm font-medium hover:bg-gray-200" target="_blank" rel="noopener noreferrer">
+          <Link href="/Thoop-hom-Supannopaj-Software-Developer.pdf" className="inline-flex items-center gap-2 bg-gray-100 rounded-3xl border border-neutral-200 px-5 py-4 text-sm font-medium hover:bg-gray-200" target="_blank" rel="noopener noreferrer">
             <GraduationCap className="h-5 w-5" /> Resume
           </Link>
           <Link href="mailto:thoophom.su@gmail.com" className="inline-flex items-center gap-2 bg-gray-100 rounded-3xl border border-neutral-200 px-5 py-4 text-sm font-medium hover:bg-gray-200" target="_blank" rel="noopener noreferrer">
