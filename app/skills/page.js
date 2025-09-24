@@ -170,10 +170,10 @@ export default function SkillPage() {
                         ))}
                     </div>
                     <div className="lg:w-3/5">
-                        <h1 className="text-5xl font-bold text-center lg:text-left ml-20 mb-12">Experience</h1>
+                        <h1 className="text-5xl font-bold text-center lg:text-left ml-5 mb-12">Experience</h1>
 
                         {/* Scroll Box add later max-h-[600px]*/}
-                        <div className="ml-20 border border-gray-300 rounded-lg p-6 overflow-y-auto">
+                        <div className="ml-5 border border-gray-300 rounded-lg p-6 overflow-y-auto">
 
                             {/* Educations Section */}
                             <div className="mb-20">
