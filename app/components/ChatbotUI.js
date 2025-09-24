@@ -56,7 +56,7 @@ export default function ChatbotUI() {
             ]}
             wrapper="h1"
             speed={40}
-            className="text-6xl font-bold"
+            className="font-bold leading-tight break-words text-[clamp(2rem,6vw,3.75rem)]"
             cursor={false} // Hide cursor after typing
           />
           <TypeAnimation
@@ -66,7 +66,7 @@ export default function ChatbotUI() {
             ]}
             wrapper="p"
             speed={60}
-            className="text-xl text-gray-500 mt-2 mb-5"
+            className="mt-3 mb-0 text-gray-500 leading-snug break-words text-[clamp(1rem,3.2vw,1.25rem)]"
           />
         </div>
 
