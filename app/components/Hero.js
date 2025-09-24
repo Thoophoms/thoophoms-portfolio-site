@@ -29,7 +29,7 @@ const Hero = () => {
           <Sparkles className="h-5 w-5" /> Skills
         </Link>
         <a
-          href="/Resume-Thoop-hom-Supannopaj-Software-Developer.pdf"
+          href="/Thoop-hom-Supannopaj-Software-Developer.pdf"
           className="inline-flex items-center gap-2 bg-gray-100 rounded-3xl border border-neutral-200 px-5 py-4 text-sm font-medium hover:bg-gray-200"
           target="_blank"
           rel="noopener noreferrer"
