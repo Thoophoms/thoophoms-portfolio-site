@@ -2,18 +2,23 @@ import Link from 'next/link';
 import { Boxes, Sparkles, GraduationCap, Mail } from 'lucide-react';
 // import { TypeAnimation } from "react-type-animation";
 
+
+// old - SWE font class = text-4xl font-bold mb-5
+// old - AI class = text-5xl font-bold mb-2
+// Old - Description = text-lg mb-5 text-gray-400
+
 const Hero = () => {
   return (
     <section className="text-center py-20">
 
 
-      <h1 className="text-5xl font-bold mb-2">
+      <h1 className="font-bold leading-tight break-words text-[clamp(3rem,7vw,4.75rem)]">
         Software Engineer
       </h1>
-      <h2 className="text-4xl font-bold mb-5">
+      <h2 className="font-bold leading-tight break-words text-[clamp(2rem,6vw,3.75rem)]">
         Specializing in AI & Machine Learning
       </h2>
-      <p className="text-lg mb-5 text-gray-400">
+      <p className="mt-3 mb-3 text-gray-500 leading-snug break-words text-[clamp(1rem,3.2vw,1.25rem)]">
         Demonstrated expertise in building and implementing complex models with Python, PyTorch, and TensorFlow. <br />
         Successfully reproduced Meta AI&apos;s Toolformer, showcasing advanced capabilities in Large Language Models (LLMs)
         <br />and AI agent frameworks. Combines a deep understanding of AI with a strong background in full-stack development
